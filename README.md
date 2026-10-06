@@ -12,7 +12,7 @@
 <img width="121" height="611" alt="dz5" src="https://github.com/user-attachments/assets/f09cae65-eeda-4872-a42e-2ecb40380d3e" />
 
 ## 2. Реализация программы
-c
+```c
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -32,6 +32,7 @@ void main() {
 
     printf("Результат вычисления: %.4lf", F);
 }
+```
 ## 3. Результаты работы программы
 Пример 1. Проверка по значению из задания
 
