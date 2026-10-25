@@ -1,18 +1,19 @@
-#include <stdio.h>
-#include <locale.h>
-#include <math.h>
-#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h> 
+#define_CRT_SECURE_NO_WARNINGS 
+#include<math.h> 
+#include<locale.h> 
 
-void main() {
-    setlocale(LC_ALL, "RUS");
-    double x, y, F;
+main void{
+ setlocale(LC_ALL, "RUS");
+ double x, y, F;
 
-    puts("Введите x:");
-    scanf("%lf", &x);
-    puts("Введите y:");
-    scanf("%lf", &y);
+ puts("Р’РІРµРґРёС‚Рµ x:");
+ scanf("%lf", &x);
 
-    F = (1 + pow(sin(x + y), 2)) / (2 + fabs(x - (2 * x) / (1 + pow(x, 2) * pow(y, 2)))) + x;
+ puts("Р’РІРµРґРёС‚Рµ y:");
+ scanf("%lf", &y);
 
-    printf("Результат вычисления: %.4lf", F);
+ F = (1 + pow(sin(x + y), 2)) / (2 + fabs(x - (2 * x) / (1 + pow(x, 2) * pow(y, 2)))) + x;
+
+ printf("Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ: %.4lf", F);
 }
